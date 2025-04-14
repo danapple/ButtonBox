@@ -1,0 +1,22 @@
+
+#define WHITE_BUTTON_LED 13
+#define GREEN_BUTTON_LED 12
+#define YELLOW_BUTTON_LED 11
+#define RED_BUTTON_LED 10
+#define SQUARE_BUTTON_LED 9
+
+#define BLUE_LED 2
+#define GREEN_LED 3
+#define YELLOW_LED 4
+#define DUAL_LED_GREEN 5
+#define RED_LED 6
+#define DUAL_LED_RED 7
+
+#define WHITE_BUTTON 30
+#define GREEN_BUTTON 32
+#define YELLOW_BUTTON 34
+#define RED_BUTTON 36
+#define SQUARE_BUTTON 38
+
+#define SWITCH_UP 25
+#define SWITCH_DOWN 23
