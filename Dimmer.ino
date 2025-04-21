@@ -1,5 +1,5 @@
 
-boolean handleDimming(unsigned long now)
+void handleDimming(unsigned long now)
 {
   for (int i = 0; i < sizeof(switches) / sizeof(int); i++) {
     int pinNumber = switches[i];
@@ -9,15 +9,14 @@ boolean handleDimming(unsigned long now)
         case SWITCH_UP:
         {
           brighter();
-          return true;
+          break;
         }
         case SWITCH_DOWN:
         {
           dimmer();
-          return true;
+          break;
         }
       }
     }
   }
-  return false;
 }
